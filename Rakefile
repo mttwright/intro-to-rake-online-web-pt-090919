@@ -1,4 +1,7 @@
 
+
+
+
 namespace :db do
   
   task :migrate => :environment do
