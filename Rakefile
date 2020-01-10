@@ -27,8 +27,8 @@ namespace :db do
     require_relative './db/seeds.rb'
   end
   
+end
+
   task :console => :environment do
     Pry.start
   end
-  
-end
